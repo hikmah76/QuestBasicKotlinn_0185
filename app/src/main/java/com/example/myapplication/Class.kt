@@ -9,4 +9,14 @@ fun main() {
 
     //prints the value of the property: email
     print(contact.email)
-}    
+
+    //prints the value of the property: email
+    print(contact.email)
+
+    //Update the value of the property: email
+    contact.email = "jane@gamail.com"
+
+    //print the new value of the property: email
+    println(contact.email)
+
+}
