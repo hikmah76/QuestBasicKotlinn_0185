@@ -1,22 +1,12 @@
 package com.example.myapplication
 
+class Motor()
 
-//kode Kotlin untuk mendemonstrasikan daftar.
-fun withoutParameter() {
-    println("== withoutParameter ==")
-    println("Hello, World!")
-}
+class Contact(val id: Int, var email: String)
 
-fun withParameter(name: String) {
-    println()
-    println("== withParameter ==")
-    println("Hello, $name!")
-}
+fun main() {
+    val contact = Contact(1, "mary@gmail.com")
 
-//named argument
-//named argument merupakan cara untuk memanggil fungsi dengan menyebutkan nama parameter
-fun withNamedArgument(name: String, age: Int) {
-    println()
-    println("== withNamedArgument ==")
-    println("Hello, $name! You are $age years old.")// Memberikan nilai default
-}
+    //prints the value of the property: email
+    print(contact.email)
+}    
